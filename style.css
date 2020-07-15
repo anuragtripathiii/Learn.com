@@ -11,18 +11,9 @@
     place-content: center;
     text-align: center;
 }
-@media screen and (min-width: 550px){
-    .show-on-mobile{
-        display: none;
-    }
+.fluid{
+    padding-left: 90px;
 }
-@media screen and (max-width: 500px) {
-    .show-on-pc{
-        display: none;
-    }
-
-}
-
 @media only screen and (min-width: 600px) and (max-width: 700px){
     .center3{
         display: inline-block;
