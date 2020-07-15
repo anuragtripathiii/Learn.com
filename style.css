@@ -1,0 +1,25 @@
+.center{
+    text-align: center;
+    font-family: Chalkboard;
+    font-size: xx-large;
+}
+.center1 {
+    display: inline;
+}
+.center3{
+    width: 100%;
+    place-content: center;
+    text-align: center;
+}
+.hover1{
+    text-decoration: none;
+}
+.hover1:hover{
+    color: white;
+}
+@media only screen and (min-width: 600px) and (max-width: 700px){
+    .center3{
+        display: inline-block;
+    }
+
+}
